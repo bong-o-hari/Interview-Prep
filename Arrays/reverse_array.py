@@ -3,6 +3,7 @@
 # Function to reverse Arrar(Arr) from start to end(length of Arr)
 def reverse_arr(Arr, start, end):
     while start < end:
+        # Swapping the values at index start and end
         Arr[start], Arr[end] = Arr[end], Arr[start]
         start += 1
         end -= 1
