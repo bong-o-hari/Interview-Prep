@@ -1,3 +1,4 @@
+# Time complexity O(n)
 # Structure used to return two values from getMinMax()
 class Pair:
     def __init__(self):
